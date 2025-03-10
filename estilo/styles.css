@@ -2,7 +2,7 @@
 :root{
     --font-p: "Abril Fatface", serif;
     --font-s:"Glacial Indifference", serif;
-    --main-c:#F3EBE1;
+    --main-c:#f3ebe1;
     --col-tip:#9E9B92;
     --col-1:#D9C5AA;
     --col-2:#BCB8AE;
@@ -132,6 +132,12 @@ h3{
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
         transition: box-shadow 0.4s ease-in-out;
         border-color: transparent;
+    }
+    
+    .btn:active {
+        outline: none !important;  /* Quita el contorno */
+        box-shadow: none !important;  /* Evita sombras en Bootstrap */
+        background-color: inherit !important; /* Mantiene el color original */
     }
     small{
         display:flex;
